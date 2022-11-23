@@ -1,0 +1,15 @@
+[package]
+name = "hello-cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tqdm = '0.4.2'
+palette = "0.6"
+image = '0.24.4'
+
+[dependencies.kmeans_colors]
+version = "0.5"
+default-features = true
