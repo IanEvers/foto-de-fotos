@@ -160,6 +160,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7"
 
 [[package]]
+name = "deltae"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e412cd91a4ec62fcc739ea50c40babe21e3de60d69f36393cce377c7c04ead5a"
+
+[[package]]
 name = "either"
 version = "1.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -269,6 +275,7 @@ dependencies = [
 name = "hello-cargo"
 version = "0.1.0"
 dependencies = [
+ "deltae",
  "image",
  "kmeans_colors",
  "palette",

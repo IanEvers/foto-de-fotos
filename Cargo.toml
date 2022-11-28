@@ -9,6 +9,7 @@ edition = "2021"
 tqdm = '0.4.2'
 palette = "0.6"
 image = '0.24.4'
+deltae = '0.3.0'
 
 [dependencies.kmeans_colors]
 version = "0.5"
